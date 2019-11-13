@@ -22,3 +22,24 @@ p {
   border-color: #fff;
   background-color: #fff;
 }
+
+.card {
+  border-bottom: 3px solid rgba(255, 255, 255, .3);
+}
+
+.card:last-child {
+  border-bottom-color: transparent;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .card {
+    border-right: 3px solid rgba(255, 255, 255, .3);
+    border-bottom: 0;
+  }
+
+  .card:last-child {
+    border-right-color: transparent;
+  }
+
+}
